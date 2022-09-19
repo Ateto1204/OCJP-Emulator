@@ -1,0 +1,12 @@
+
+Given:
+
+int i, j = 0;
+i = (3 * 2 + 4 + 5);
+j = (3 * ((2 + 4) + 5));
+System.out.println("i:" + i + "\nj:" + j);
+What is the result?
+
+A.      B.      C.      D.
+  i:16    i:15    i:33    i:15
+  j:33    j:33    j:23    j:23

@@ -1,0 +1,29 @@
+
+Given the code fragment:
+								|    And,
+class Student {							|    
+ 								|    public class Test {
+    int rollnumber;						|    
+    String name;						|        public static void main(String[] args) {
+    List cources = new ArrayList();				|            List cs = new ArrayList();
+    								|            cs.add("Java");
+    // insert code here						|            cs.add("C");
+ 								|            Student s = new Student(123, "Fred", cs);
+    public String toString() {					|            System.out.println(s);
+        return rollnumber + " : " + name + " : " + cources;	|        }
+    }								|    }
+}								|
+
+
+Which code fragment, when inserted at line // insert code here, enables class Test to print 123 : Fred : [Java, C]?
+
+
+A.						    B.
+private Student(int i, String name, List cs) {	    public void Student(int i, String name, List cs) {
+//initialization code goes here 		    //initialization code goes here
+}						    }
+
+C.					  	    D.
+Student(int i, String name, List cs) {		    Student(int i, String name, ArrayList cs) {
+//initialization code goes here 		    //initialization
+}						    }
