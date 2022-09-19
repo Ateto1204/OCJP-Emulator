@@ -26,6 +26,7 @@ public static void main(String[] args){
 
 Which three lines, when inserted independently at line n1, cause the program to print a 0 balance?
 
+
 A. this.amount = 0;
 
 B. amount = 0;
